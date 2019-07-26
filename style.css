@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+@font-face {
+	font-family: "Roboto-Bold"; 
+	src: url("../fonts/Roboto/Roboto-Bold.ttf"); 
+}
+@font-face {
+	font-family: "Roboto-Light"; 
+	src: url("../fonts/Roboto/Roboto-Light.ttf"); 
+} 
+@font-face {
+	font-family: "Roboto-Regular"; 
+	src: url("../fonts/Roboto/Roboto-Regular.ttf"); 
+}  
+
+/*--------------------------------------------
+	HEADER
+---------------------------------------------*/
+.header{
+	box-shadow: 5px 5px 5px #000;
+}
+.logo{
+	padding: 25px 0;
+}
+.navbar-nav{
+	margin: 0 auto;
+}
+
+.nav li, a{
+	font-family: 'Roboto-Bold', sans-serif;
+	text-transform: uppercase;
+	color: #777777;
+	font-size: 14px;
+	padding-top: 35px;
+	margin-left: 15px;
+}
+.nav li a:hover,
+.nav li a:focus{
+    background: none;
+    color: #000;
+    transition: .3s;
+}
+
+/*--------------------------------------------
+	SLIDE
+---------------------------------------------*/
+.carousel-indicators{
+	position: absolute;
+	top: 90%;
+    left: 0;
+    z-index: 15;
+}
+
+.carousel-indicators li{
+	border: 1px solid #000;
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	background: #000;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 230px;
+    left: 15%;
+    right: 15%;
+    z-index: 10;
+    color: #000;
+}
+
+.carousel-caption h1{
+	margin: 0 auto;
+	width: 700px;
+	font-family: 'Roboto-Light', sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	background: #000;
+	color: #fff;
+}
+
+.carousel-caption h5{
+	font-family: 'Roboto-Light', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 35px;
+	font-weight: 600;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{
+	border: 1px solid #fff;
+	width: 40px;
+	height: 40px;
+	padding: 5px 2px;
+	border-radius: 50px;
+}
+.carousel-control-prev i:hover,
+.carousel-control-next i:hover{
+	background: #000;
+	border: 1px solid #000;
+	transition: .3s;
+}
+
+.fa-chevron-left,
+.fa-chevron-right{
+	font-size: 28px;
+}
+
+/*--------------------------------------------
+	TAB-NAV
+---------------------------------------------*/
+.tab-nav{
+	margin: 40px 0;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	padding: 10px 0;
+}
+
+.nav-item span{
+	font-family: 'Roboto-Regular', sans-serif;
+	color: #dadada;
+	font-size: 32px;
+	padding-left: 20px;
+}
+
+.branding span{
+	color: #fff;
+}
+
+/*--------------------------------------------
+	IMAGES-DECK
+---------------------------------------------*/
+.images{
+	box-shadow: 5px 5px 5px #f3f3f3;
+	background: #fafafa;
+}
+
+.thumbnail a, img{
+	width: 100%;
+}
+
+a.img1 img{
+	height: 300px;
+	margin-top: 50px;
+}
+a.img3 img{
+	height: 400px;
+	margin-top: 50px;
+}
+a.img5 img,
+a.img9 img{
+	height: 350px;
+	margin-top: 30px;
+}
+a.img2 img,
+a.img4 img,
+a.img6 img,
+a.img8 img,
+a.img10 img{
+	height: 250px;
+	margin-top: 30px;
+}
+a.img7 img{
+	height: 430px;
+	margin-top: 20px;
+}
+
+.btn a button{
+	text-transform: uppercase;
+	width: 130px;
+	margin: 50px 0 80px;
+}
+
+/*--------------------------------------------
+	FOOTER
+---------------------------------------------*/
+.icons{
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	padding: 25px 0;
+	margin: 20px 0 40px;
+}
+.icons a{
+	margin-left: 50px;
+}
+.icons a:hover{
+	color: #000;
+	transition: .3s;
+}
+
+.footer p{
+	font-family: 'Roboto-Regular', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #9c9c9c;
+	margin-bottom: 30px;
+}
+.footer p span{
+	color: #000;
+}
+
+
+
+
+
+
+
+
